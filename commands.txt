@@ -1,0 +1,20 @@
+py manage.py makemigrateions --dry-run --verbosity 3
+pip install coverage
+coverage run --omit='*/ascons_venv/*' manage.py test
+coverage html
+pip install djangorestframework
+
+
+run on cmd Set-ExecutionPolicy Unrestricted -Scope Process
+npx gitignore python
+
+
+npx create-react-app name .
+npm start
+npm install react-router-dom
+npm install @material-ui/core
+pip install django-cors-headers
+
+Info:
+Strict Mode
+StrictMode is a tool for highlighting potential problems in an application. Like Fragments
